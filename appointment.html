@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Appointment form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="font-family: inherit;">Appointment form</h2>
+      <div class="form-container">
+        <form>
+          <div class="input">
+            <i class="fa fa-user lock"></i>
+            <input type="text" placeholder="Your full name" class="name" />
+          </div>
+          <div class="input">
+            <i class="fa fa-envelope email"></i>
+            <input type="email" placeholder="Your mail" class="name"/>
+          </div>
+          <div class="input">
+            <i class="fa fa-lock lock"></i>
+            <input type="password" placeholder="Enter your password" class="name"/>
+          </div>
+          <div class="input">
+            <i class="fa fa-phone lock"></i>
+            <input type="tel" placeholder="Your phone" class="name"/>
+          </div>
+          <div class="input">
+            <input type="radio" class="radio-button" name="radio1" />
+            <label style="font-size: 20px; color: black;">male</label>
+            <input type="radio" class="radio-button" name="radio1" />
+            <label style="font-size: 20px; color: black;">female</label>
+          </div>
+          <div class="input">
+            <select class="speciality">
+              <option>Select</option>
+              <option>Orthopaedics &amp; Spine</option>
+              <option>General &amp; Laparoscopic Surgery</option>
+              <option>Urology &amp; Andrology</option>
+              <option>ENT</option>
+              <option>Gynaecology</option>
+              <option>Bariatric</option>
+              <option>Vascular Surgery</option>
+              <option>Ophthalmology</option>
+            </select>
+          </div>
+          <div class="input">
+            <input type="checkbox">
+            <label style="font-size: 20px; margin-left: 4px;">I agree to terms & conditions.</label>
+          </div>
+          <div class="input">
+            <input style="font-size: 20px;" type="button" value="Submit" class="button">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
